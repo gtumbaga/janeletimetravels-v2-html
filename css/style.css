@@ -1,0 +1,26 @@
+html * {
+  box-sizing: border-box;
+}
+body {
+  font-size: 16px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: normal;
+}
+.constraint {
+  max-width: 1140px;
+  margin: 0 auto;;
+}
+.container {
+  display: grid;
+}
+
+.page-header {
+  display: grid;
+  grid-template-columns: 200px auto;
+}
+nav ul {
+  list-style: none;
+}
+nav ul li {
+  display: inline-block;
+}

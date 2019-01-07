@@ -1,2 +1,6 @@
+#VIM
 *.swp
 .*.swp
+
+# dependencies
+/node_modules
