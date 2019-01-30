@@ -9,9 +9,16 @@ body {
 .constraint {
   max-width: 1140px;
   margin: 0 auto;
+  padding: 0 20px;
+
 }
 .container {
   display: grid;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
 }
 
 .page-header {
@@ -31,6 +38,7 @@ body {
 .page-header nav {
   grid-area: header-nav;
   justify-self: end;
+  text-transform: uppercase;
 }
 nav ul {
   list-style: none;
@@ -39,4 +47,16 @@ nav ul {
 }
 nav ul li {
   display: inline-block;
+  margin: 0 4px;
+}
+
+.logo-holder {
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+main {
+}
+
+footer {
 }
